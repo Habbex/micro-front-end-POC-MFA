@@ -51,7 +51,8 @@ module.exports = {
       exposes: {
         "./cart": "./src/cart.js",
         "./Login": "./src/Login.jsx",
-        "./MiniCart": "./src/MiniCart.jsx"
+        "./MiniCart": "./src/MiniCart.jsx",
+        "./CartContent": "./src/CartContent.jsx" // Expose cartContent for single page app setup
       },
       shared: {
         ...deps,
